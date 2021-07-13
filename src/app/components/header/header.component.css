@@ -1,0 +1,32 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+mat-toolbar {
+    background-color: #66ffcc;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    margin-left: 10px;
+    font-weight: 500;
+    text-shadow: #000;
+    text-decoration: none;
+    color: #000;
+}
+
+.links a:hover {
+    opacity: 90%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.content {
+    padding: 15px;
+}
