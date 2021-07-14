@@ -10,12 +10,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { SobreComponent } from './pages/sobre/sobre.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
