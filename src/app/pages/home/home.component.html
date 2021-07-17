@@ -1,40 +1,17 @@
-<mat-card class="card-top mat-elevation-z2">
-    <mat-card-header style="text-align: center; width: 100%; display: flex; justify-content: center;">
-      <mat-card-title style="font-size: 2rem;">Bem vindo a PNECO!</mat-card-title>
-      <mat-card-subtitle>Inovação sustentável aos seus pés</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="" alt="">
-    <mat-card-content>
-      <p style="font-size: 1.1rem;">
-        Somos a Pneco Pisos, uma empresa fabricante de pisos ecológicos, 
-        utilizando como matéria- prima borracha de pneus inservíveis.
-      </p>
-    </mat-card-content>
+<div class="container">
+  <div class="background-image"></div>
+
+  <div class="mat-elevation-z2 first-div">
+    <h1>Bem vindo a PNECO!</h1>
+    <h3>Inovação sustentável aos seus pés</h3>
+
+    <p style="font-size: 1.1rem; max-width: 400px;">
+      Somos a Pneco Pisos, uma empresa fabricante de pisos ecológicos,
+      utilizando como matéria- prima borracha de pneus inservíveis.
+    </p>
+
     <mat-card-actions>
-        <button mat-button style="background-color: #d1fff0;">Saiba Mais</button>
+      <button mat-button class="buttons" (click)="navigateToAbout()">Saiba Mais</button>
     </mat-card-actions>
-</mat-card>
-
-<!--Missão-->
-<mat-card class="card-top mat-elevation-z2">
-    <mat-card-header style="text-align: center; width: 100%; display: flex; justify-content: center;">
-      <mat-card-title style="font-size: 2rem;">Missão, Visão e Valores</mat-card-title>
-    </mat-card-header>
-    <img mat-card-image src="" alt="">
-    <mat-card-content>
-      <p style="font-size: 1.1rem;">
-        Missão- transformar o pneu em algo benéfico para a sociedade, visando sustentabilidade, 
-        acessibilidade e inclusão social. <br> <br>
-
-        Visão- ser líder em soluções inovadoras na fabricação de pisos ecológicos. <br><br>
- 
-        Valores- compromisso com o meio ambiente, comprometimento ético, excelência com simplicidade, 
-        qualidade e eficiência, respeito e integridade.
-
-      </p>
-    </mat-card-content>
-</mat-card>
-
-<div style="min-width: 100%; min-height: 100px; padding: 15px;" class="mat-elevation-z2">
-  <p>Olá mundo</p>
+  </div>
 </div>

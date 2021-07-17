@@ -1,0 +1,132 @@
+.div-header {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    background-color: #d1fff0;
+    padding: 50px 0 45px 0;
+}
+
+.div-header h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.div-header p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.div-empresa {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    padding: 15px 30px 10px 30px;
+}
+
+.content-left {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    left: 0;
+    right: 0;
+}
+.content-left p{
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+.content-left b{
+    line-height: 40px;
+}
+
+.content-right {
+    text-align: right;
+    width: 40vw;
+}
+
+.content-right img{
+    height: 200px;
+    width: 440px;
+}
+
+
+.div-historia {
+    text-align: left;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 25px 30px 10px 30px;
+}
+
+.div-historia h1{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.div-historia p{
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin-top: -6px;
+}
+
+
+.div-mvv {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    padding: 10px 30px 45px 30px;
+}
+
+.div-mvv p{
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+.div-mvv h1{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.div-mvv span{
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.div-mvv .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-missao {
+    width: 30vw;
+    margin-right: 10px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.content-visao {
+    width: 30vw;
+    margin-right: 10px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.content-valores {
+    width: 30vw;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}

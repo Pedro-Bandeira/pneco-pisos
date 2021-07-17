@@ -3,9 +3,12 @@
 }
 
 mat-toolbar {
-    background-color: #d1fff0;
+    background-color: #fff;
     display: flex;
     align-items: center;
+    left: 0;
+    right: 0;
+    height: 10vh;
 }
 
 .links {

@@ -1,3 +1,78 @@
-.card-top {
-    width: 97.5%;
+.container {
+    width: 100vw;
+    margin: 0;
+    padding: 0px;
+}
+
+.background-image {
+    right: 0;
+    left: 0;
+    background-image: url('src/assets/bg-eco.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    filter: blur(3px);
+
+    z-index: -4;
+}
+
+.first-div{
+
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+
+    position: absolute;
+
+    color: #FFF;
+    text-shadow: #000;
+
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+
+    top: 40%;
+    left: 10px;
+
+    z-index: 1;
+
+    border-radius: 10px;
+}
+
+img {
+    filter: blur(4px);
+}
+
+.divisao2{
+    padding: 10px 0px 40px 10px;
+    margin-bottom: 5px;
+    right: 0;
+    left: 0;
+    background-color: #f0f5f5;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+h3 {
+    margin-top: -15px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.buttons {
+    background-color: rgba(255,255,255, 1)  ; 
+    color: #000;
+}
+
+.buttons:hover {
+    background-color: rgba(255,255,255, 0.5); 
+    transition: 0.5s;
 }

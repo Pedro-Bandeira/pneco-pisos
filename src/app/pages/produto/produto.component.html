@@ -1,0 +1,51 @@
+<div class="div-header">
+    <h1>PRODUTO</h1>
+    <p>Conheça um pouco mais sobre o produto que produzimos.</p>
+</div>
+
+<div class="div-produto">
+    <div class="content-left">
+      <p>
+        <span>Desenvolvemos pisos feitos a partir da borracha granulada de pneus reciclados, <br>
+            que podem ser utilizados em:
+        </span> <br>
+        Playground - Áreas de recreação infantil - Calçadas, caminhos, pistas de corrida e caminhadas -
+        Quadras, academias - Ambientes corporativos - Beiras de piscinas, spas - Pisos táteis - 
+        Faixa Demarcatória de Escada - Símbolo Internacional do Cadeirante - Elementos táteis.
+      </p>
+      <p>
+        Dispomos de uma linha completa de produtos voltados para a orientação de deficientes visuais 
+        e espaços destinados a cadeirantes, todos de acordo com as especificações da NBR 9050.
+      </p>
+    </div>
+  
+    <div class="content-right">
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img [src]="images[0]" alt="Random first slide">
+              </div>
+              <div class="carousel-caption">
+                <h3>First slide label</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img [src]="images[1]" alt="Random second slide">
+              </div>
+              <div class="carousel-caption">
+                <h3>Second slide label</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img [src]="images[2]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h3>Third slide label</h3>
+              </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+
+</div>
