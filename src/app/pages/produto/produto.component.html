@@ -8,7 +8,7 @@
       <p>
         <span>Desenvolvemos pisos feitos a partir da borracha granulada de pneus reciclados, <br>
             que podem ser utilizados em:
-        </span> <br>
+        </span> <br> <br>
         Playground - Áreas de recreação infantil - Calçadas, caminhos, pistas de corrida e caminhadas -
         Quadras, academias - Ambientes corporativos - Beiras de piscinas, spas - Pisos táteis - 
         Faixa Demarcatória de Escada - Símbolo Internacional do Cadeirante - Elementos táteis.
@@ -17,8 +17,13 @@
         Dispomos de uma linha completa de produtos voltados para a orientação de deficientes visuais 
         e espaços destinados a cadeirantes, todos de acordo com as especificações da NBR 9050.
       </p>
+      <p style="font-size: 0.9rem; line-height: 0.9rem; margin-left: -5px; margin-top: 20px;">
+        Indicados para: <span style="font-size: 0.9rem;">casas lotéricas, agências bancárias, hospitais, 
+        escolas, universidades, supermercados, shoppings etc... </span>
+      </p>
     </div>
   
+    <!--Imagens Carousel-->
     <div class="content-right">
         <ngb-carousel *ngIf="images">
             <ng-template ngbSlide>
@@ -47,5 +52,73 @@
             </ng-template>
         </ngb-carousel>
     </div>
+</div>
 
+
+<div class="div-vantagem">
+  <h1>VANTAGENS</h1>
+  <div class="content-div-vantagem">
+    <div class="content-left2">
+      <img src="assets/pneu-reciclavel.png" alt="pneu-reciclavel">
+    </div>
+  
+    <div class="content-right2">
+      <p>
+        <span>L</span>uta contra o aquecimento global <span>| </span>
+        <span>F</span>ácil aplicação, não necessita de cola ou remoção do piso existente <span>| </span>
+        <span>P</span>ode ser aplicado em qualquer tipo de piso <span>| </span>
+        <span>A</span>tende as especificações das prefeituras, pois seguem as Normas ABNT <span>| </span>
+        <span>D</span>renante, aumentando a permeabilidade do solo em chuvas <span>| </span>
+        <span>I</span>solante térmico e acústico <span>| </span>
+        <span>S</span>em manutenção e fácil limpeza <span>| </span>
+        <span>P</span>ermite a passagem da água para o solo, proporcionando as plantas e árvores a água necessária, evitando a quebra do pavimento <span>| </span>
+        <span>C</span>onforto térmico (absorve e retém menos calor que o concreto) <span>| </span>
+        <span>R</span>eduz lesões por queda e impactos <span>| </span>
+        <span>N</span>ão atrai e nem mantém a umidade, reduz poeiras, musgos e fungos.      
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="div-produto">
+  <div class="content-left">
+    <p>
+      Segundo a Revista Veja, mais de 30% dos acidentes com crianças acontecem em playgrounds, 
+      o que pode ocasionar traumas sofridos pela queda em um piso inadequado e sem amortecimento. 
+      Por esse motivo a ABNT se inspirou em rigorosas normas de segurança europeias que utilizam 
+      o método HIC – Head injury Criterion (Critério de Traumatismo Craniano), para proteger a parte 
+      mais delicada do corpo da criança: a cabeça. 
+    </p>
+    <p>
+      Para o especialista em fisioterapia do esporte pela Unifesp, 
+      Renan Malvestio grande parte das lesões em corredores se origina por impacto 
+      em locais inadequados para a prática do esporte.
+    </p>
+    <p>
+      O Shopping Downtown localizado na Barra da Tijuca/RJ reduziu o número de funcionários 
+      exclusivos para limpeza na área arborizada, de seis passou para um, pois inovou ao escolher 
+      o piso de borracha reciclada e sustentável para revestir a gola das árvores. 
+    </p>
+  </div>
+
+  <!--Imagens Carousel-->
+  <div class="content-right">
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="assets/curiosidades1.jpg" alt="Random first slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="assets/curiosidades2.jpg" alt="Random second slide">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="assets/curiosidades3.jpg" alt="Random third slide">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+  </div>
 </div>

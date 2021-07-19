@@ -7,15 +7,13 @@
 .background-image {
     right: 0;
     left: 0;
+    width: 100vw;
     background-image: url('src/assets/bg-eco.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 90vh;
 
     filter: blur(3px);
-
-    z-index: -4;
 }
 
 .first-div{

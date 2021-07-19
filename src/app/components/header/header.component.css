@@ -2,18 +2,32 @@
     flex: 1 1 auto;
 }
 
+.logo {
+    font-weight: bold; 
+    display: flex; 
+    align-items: center;
+}
+
+.logo:hover {
+    opacity: 0.9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 mat-toolbar {
     background-color: #fff;
     display: flex;
     align-items: center;
     left: 0;
     right: 0;
-    height: 10vh;
+    height: 9vh;
+    margin-bottom: 1px;
 }
 
 .links {
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .links a {
