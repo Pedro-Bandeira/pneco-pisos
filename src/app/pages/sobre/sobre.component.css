@@ -28,7 +28,7 @@
     left: 0;
     right: 0;
     background-color: #f0f0f0;
-    padding: 15px 30px 10px 30px;
+    padding: 15px 50px 10px 50px;
 }
 
 .content-left {
@@ -40,7 +40,7 @@
     right: 0;
 }
 .content-left p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 25px;
 }
 .content-left b{
@@ -53,7 +53,7 @@
 }
 
 .content-right img{
-    height: 200px;
+    height: 240px;
     width: 440px;
 }
 
@@ -63,16 +63,17 @@
     left: 0;
     right: 0;
     background-color: #fff;
-    padding: 25px 30px 10px 30px;
+    padding: 25px 50px 10px 50px;
 }
 
 .div-historia h1{
     font-weight: 600;
     font-size: 1.2rem;
+    color: darkgreen;
 }
 
 .div-historia p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 25px;
     margin-top: -6px;
 }
@@ -91,12 +92,13 @@
 }
 
 .div-mvv p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 25px;
 }
 .div-mvv h1{
     font-weight: 500;
     font-size: 1.3rem;
+    color: darkgreen;
 }
 .div-mvv span{
     font-size: 1.15rem;
@@ -146,4 +148,130 @@
 
 mat-card-title {
     font-weight: 600;
+}
+
+
+.div-produto {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    padding: 20px 30px 20px 30px;
+}
+.content-left-fab {
+    width: 65vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    right: 0;
+}
+.content-left-fab p{
+    font-size: 1rem;
+    line-height: 25px;
+}
+.content-left-fab H1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: darkgreen;
+}
+.content-left-fab span{
+    font-weight: 500;
+    text-shadow: #000;
+    font-size: 1.3rem;
+}
+
+.content-right-fab {
+    text-align: right;
+    width: 25vw;
+}
+
+.content-right-fab img:first-child{
+    height: 220px;
+    width: 350px;
+}
+
+.content-right-fab-regime {
+    text-align: right;
+    width: 25vw;
+}
+
+.content-right-fab-regime img{
+    height: 200px;
+    width: 340px;
+}
+
+.div-vantagem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 20px 30px 20px 30px;
+}
+.div-vantagem h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: darkgreen;
+}
+.content-div-vantagem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    padding: 0px 30px 0px 30px;
+}
+
+.content-right2 {
+    width: 65vw;
+    text-align: right;
+    right: 0;
+}
+
+.content-left2 {
+    text-align: center;
+    width: 35vw;
+    padding: 0px 50px 0px 50px;
+    margin-right: -50px;
+}
+
+.content-left2 img {
+    height: 250px;
+    width: 350px;
+    margin-top: -20px;
+    
+}
+
+.content-right2 p{
+    font-size: 1rem;
+    line-height: 25px;
+}
+.content-right2 span{
+    font-weight: 500;
+    text-shadow: #000;
+    font-size: 1.3rem;
+}
+
+.organograma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px 10px 30px;
+}
+
+.organograma h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: darkgreen;
 }

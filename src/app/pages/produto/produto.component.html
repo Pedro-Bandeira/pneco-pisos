@@ -6,7 +6,7 @@
 <div class="div-produto">
     <div class="content-left">
       <p>
-        <span>Desenvolvemos pisos feitos a partir da borracha granulada de pneus reciclados, <br>
+        <span style="color: darkgreen;">Desenvolvemos pisos feitos a partir da borracha granulada de pneus reciclados, <br>
             que podem ser utilizados em:
         </span> <br> <br>
         Playground - Áreas de recreação infantil - Calçadas, caminhos, pistas de corrida e caminhadas -
@@ -28,30 +28,47 @@
         <ngb-carousel *ngIf="images">
             <ng-template ngbSlide>
               <div class="picsum-img-wrapper">
-                <img [src]="images[0]" alt="Random first slide">
-              </div>
-              <div class="carousel-caption">
-                <h3>First slide label</h3>
+                <img src="assets/produtos-aplicacao/img56.jpg" alt="produto">
               </div>
             </ng-template>
             <ng-template ngbSlide>
               <div class="picsum-img-wrapper">
-                <img [src]="images[1]" alt="Random second slide">
-              </div>
-              <div class="carousel-caption">
-                <h3>Second slide label</h3>
+                <img src="assets/produtos-aplicacao/img57.jpg" alt="produto">
               </div>
             </ng-template>
             <ng-template ngbSlide>
               <div class="picsum-img-wrapper">
-                <img [src]="images[2]" alt="Random third slide">
+                <img src="assets/produtos-aplicacao/img58.jpg" alt="produto">
               </div>
-              <div class="carousel-caption">
-                <h3>Third slide label</h3>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img src="assets/produtos-aplicacao/img59.jpg" alt="produto">
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img src="assets/produtos-aplicacao/img60.jpg" alt="produto">
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img src="assets/produtos-aplicacao/img61.jpg" alt="produto">
               </div>
             </ng-template>
         </ngb-carousel>
     </div>
+</div>
+
+<div class="paleta-cores">
+  <h1>PALETA DE CORES DISPONÍVEIS</h1>
+  <img src="assets/produto-cores/amarelo.jpg" alt="amarelo" id="first">
+  <img src="assets/produto-cores/azul.jpg" alt="azul">
+  <img src="assets/produto-cores/cinza.jpg" alt="cinza">
+  <img src="assets/produto-cores/laranja.jpg" alt="laranja">
+  <img src="assets/produto-cores/preto.jpg" alt="preto">
+  <img src="assets/produto-cores/verde.jpg" alt="verde">
+  <img src="assets/produto-cores/vermelho.jpg" alt="vermelho">
 </div>
 
 
@@ -82,6 +99,7 @@
 
 <div class="div-produto">
   <div class="content-left">
+    <h1>CURIOSIDADES</h1>
     <p>
       Segundo a Revista Veja, mais de 30% dos acidentes com crianças acontecem em playgrounds, 
       o que pode ocasionar traumas sofridos pela queda em um piso inadequado e sem amortecimento. 
@@ -120,5 +138,45 @@
           </div>
         </ng-template>
       </ngb-carousel>
+  </div>
+</div>
+
+<div class="precos">
+  <h1>FAIXA DE PREÇO</h1>
+  <p>O <span>Preço metro</span> é bastante acessível em termos de investimento 
+    porque a borracha é um material versátil, pode ser aplicada em 
+    qualquer tipo de ambiente e sua vida útil é longa.
+  </p>
+  <p>O preço pode variar de acordo com a espessura e quantidade. 
+    Preços por quantidade:
+  </p>
+  <h2>De 1 até 39 Placas - R$ 35,00* cada;</h2>
+  <h2>40 Placas (10m²) - R$30,00* cada;</h2>
+  <h2>100 Placas (25m²) - R$26,00* cada;</h2>
+  <h2>200 Placas (50m²) - R$23,00* cada</h2>
+  <p><span>*Valores podem ser negociados.</span></p>
+</div>
+
+<div class="certificacoes">
+  <div class="content">
+    <h1>SELOS E CERTIFICAÇÕES</h1>
+    <p>
+      Reconhecida pelo <span>GBC Brasil (Green Building 
+        Council Brasil)</span>;
+    </p>
+    <p>Reconhecida pelo <span>IBAMA</span>;</p>
+    <p>É uma das primeiras empresas do Brasil ter os pisos 
+      de borracha certificados pela <span>ABNT</span>;
+    </p>
+    <p>
+      Mais uma certificação dada pelo mercado de 
+      atuação, pisos de baixa <span>Flamabilidade</span> (índice de 
+      quanto uma substância ou objeto pode ser 
+      inflamável).
+    </p>
+  </div>
+
+  <div class="imagenscert">
+    <img src="assets/certificacoes/todas.PNG" alt="certificacoes">
   </div>
 </div>

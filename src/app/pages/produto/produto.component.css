@@ -26,20 +26,26 @@
     left: 0;
     right: 0;
     background-color: #f0f0f0;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 50px 20px 50px;
 }
 .content-left {
     width: 60vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     left: 0;
     right: 0;
 }
 .content-left p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 25px;
+}
+.content-left h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: darkgreen;
 }
 .content-left span{
     font-weight: 500;
@@ -53,7 +59,7 @@
 }
 
 .content-right img:first-child{
-    height: 280px;
+    height: 300px;
     width: 500px;
 }
 .content-right img{
@@ -70,12 +76,13 @@
     left: 0;
     right: 0;
     background-color: #fff;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 50px 20px 50px;
 }
 .div-vantagem h1{
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 2px;
+    color: darkgreen;
 }
 .content-div-vantagem {
     display: flex;
@@ -105,11 +112,96 @@
 }
 
 .content-right2 p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 25px;
 }
 .content-right2 span{
     font-weight: 500;
     text-shadow: #000;
     font-size: 1.3rem;
+}
+
+.paleta-cores {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px 50px 30px 50px;
+    text-align: center;
+}
+
+.paleta-cores h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: darkgreen;
+}
+
+#first{
+    margin-left: 10px;
+}
+
+.paleta-cores img{
+    width: 150px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+.certificacoes{
+    width: 100%;
+    padding: 20px 50px 20px 50px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.certificacoes .content{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.certificacoes p{
+    font-size: 1rem;
+    line-height: 20px;
+}
+.certificacoes h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: lightgreen;
+}
+.certificacoes span{
+    font-size: 1rem;
+    line-height: 20px;
+    color: lightgreen;
+    font-weight: 500;
+}
+
+.precos{
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.precos h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: darkgreen;
+}
+.precos h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+.precos p{
+    font-size: 1rem;
+    line-height: 20px;
+}
+.precos span{
+    font-size: 1rem;
+    line-height: 20px;
+    color: darkgreen;
+    font-weight: 500;
 }
