@@ -99,6 +99,13 @@
     left: 0;
     right: 0;
 }
+.content-right20 {
+    width: 60vw;
+    text-align: left;
+    left: 0;
+    right: 0;
+    padding: 5px 0px 0px 20px;
+}
 
 .content-left2 {
     text-align: center;
@@ -110,12 +117,26 @@
     width: 300px;
     margin-top: -20px;
 }
+.content-left20 img {
+    height: 200px;
+    width: 300px;
+    margin-top: 0px;
+}
 
 .content-right2 p{
     font-size: 1rem;
     line-height: 25px;
 }
 .content-right2 span{
+    font-weight: 500;
+    text-shadow: #000;
+    font-size: 1.3rem;
+}
+.content-right20 p{
+    font-size: 1rem;
+    line-height: 25px;
+}
+.content-right20 span{
     font-weight: 500;
     text-shadow: #000;
     font-size: 1.3rem;
@@ -204,4 +225,61 @@
     line-height: 20px;
     color: darkgreen;
     font-weight: 500;
+}
+
+.fluxograma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 50px 20px 50px;
+}
+
+.fluxograma h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: darkgreen;
+}
+
+.fluxograma img{
+    height: 400px;
+    width: 750px;
+}
+
+.gestaoprod {
+    background-color: #f0f0f0;
+    padding: 15px 50px 10px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.gestaoprod h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: darkgreen;
+    margin-bottom: 5px;
+}
+.gestaoprod span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: darkgreen;
+    margin-bottom: 5px;
+}
+.gestaoprod p{
+    font-size: 1rem;
+    line-height: 20px;
+}
+.gestaoprod li{
+    font-size: 1rem;
+    line-height: 20px;
+}
+.gestaoprod ul{
+    margin-left: -20px;
+}
+
+.gestaoprod img{
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: black;
 }

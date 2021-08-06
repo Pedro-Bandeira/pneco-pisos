@@ -1,0 +1,40 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.logo {
+    font-weight: bold; 
+    display: flex; 
+    align-items: center;
+}
+
+.logo:hover {
+    opacity: 0.9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+mat-toolbar {
+    background-color: #b3cccc;
+    display: flex;
+    align-items: center;
+    left: 0;
+    right: 0;
+    height: 9vh;
+    margin-bottom: 1px;
+}
+
+mat-toolbar span{
+    font-size: 1rem;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+mat-icon {
+    margin: 0 5px 0 5px;
+}

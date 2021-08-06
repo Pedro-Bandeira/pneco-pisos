@@ -18,6 +18,11 @@ import { MatIconModule } from '@angular/material/icon';
 import { LayoutModule } from '@angular/cdk/layout';
 import { ProdutoComponent } from './pages/produto/produto.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SegurancaEstoqueComponent } from './pages/seguranca-estoque/seguranca-estoque.component';
+import { SustentabilidadeComponent } from './pages/sustentabilidade/sustentabilidade.component';
+import { ClienteComponent } from './pages/cliente/cliente.component';
+import { ProblematizacaoComponent } from './pages/problematizacao/problematizacao.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HomeComponent,
     SobreComponent,
     DashboardComponent,
-    ProdutoComponent
+    ProdutoComponent,
+    SegurancaEstoqueComponent,
+    SustentabilidadeComponent,
+    ClienteComponent,
+    ProblematizacaoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
