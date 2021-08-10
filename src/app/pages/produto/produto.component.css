@@ -54,17 +54,20 @@
 }
 
 .content-right {
-    text-align: right;
     width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.content-right img:first-child{
-    height: 300px;
-    width: 500px;
-}
 .content-right img{
-    height: 500px;
-    width: 500px;
+    height: 280px;
+    width: 400px;
+}
+
+.content-right ngb-carousel:first-child {
+    width: 400px;
+    height: 280px;
 }
 
 
@@ -121,6 +124,7 @@
     height: 200px;
     width: 300px;
     margin-top: 0px;
+    border-radius: 10px;
 }
 
 .content-right2 p{
@@ -282,4 +286,48 @@
     width: 200px;
     border-radius: 100px;
     box-shadow: black;
+}
+
+.titulos-div {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: darkgreen;
+    margin-bottom: 5px;
+}
+
+.instalacao {
+    padding: 20px 50px 20px 50px;
+    display: flex;
+}
+.instalacao img{
+    height: 230px;
+    border-radius: 10px;
+}
+
+.limpeza {
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    background-color: #f0f0f0;
+}
+.limpeza img{
+    height: 100px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.conteudo-texto-limpeza p {
+    font-size: 1rem;
+    line-height: 17px;
+}
+
+.conteudo-texto-inst {
+    width: 75vw;
+    text-align: end;
+}
+.conteudo-texto-inst p {
+    font-size: 1rem;
+    line-height: 17px;
+}
+.conteudo-img-inst {
+    width: 25vw;
 }

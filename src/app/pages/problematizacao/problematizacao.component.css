@@ -17,3 +17,63 @@
     font-weight: 400;
     font-size: 1rem;
 }
+
+.titulos-div {
+    font-size: 1.2rem;
+    color: darkgreen;
+    font-weight: 600;
+}
+
+.problematizacao {
+    display: flex;
+    padding: 20px 50px 20px 50px;
+}
+
+.conteudo-texto-problem {
+    width: 70vw;
+    padding-right: 5px;
+}
+.conteudo-img-problem {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-img-problem img{
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+p{
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+
+.solucao {
+    background-color: #f0f0f0;
+    display: flex;
+    padding: 20px 50px 20px 50px;
+}
+.conteudo-texto-solucao {
+    width: 70vw;
+    padding-right: 5px;
+}
+.conteudo-img-solucao {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+}
+.conteudo-img-solucao img{
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.analise-swot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -25,7 +25,7 @@
   
     <!--Imagens Carousel-->
     <div class="content-right">
-        <ngb-carousel *ngIf="images">
+        <ngb-carousel *ngIf="images" class="mat-elevation-z2">
             <ng-template ngbSlide>
               <div class="picsum-img-wrapper">
                 <img src="assets/produtos-aplicacao/img56.jpg" alt="produto">
@@ -62,13 +62,13 @@
 
 <div class="paleta-cores">
   <h1>PALETA DE CORES DISPONÍVEIS</h1>
-  <img src="assets/produto-cores/amarelo.jpg" alt="amarelo" id="first">
-  <img src="assets/produto-cores/azul.jpg" alt="azul">
-  <img src="assets/produto-cores/cinza.jpg" alt="cinza">
-  <img src="assets/produto-cores/laranja.jpg" alt="laranja">
-  <img src="assets/produto-cores/preto.jpg" alt="preto">
-  <img src="assets/produto-cores/verde.jpg" alt="verde">
-  <img src="assets/produto-cores/vermelho.jpg" alt="vermelho">
+  <img src="assets/produto-cores/amarelo.jpg" alt="amarelo" id="first" class="mat-elevation-z2">
+  <img src="assets/produto-cores/azul.jpg" alt="azul" class="mat-elevation-z2">
+  <img src="assets/produto-cores/cinza.jpg" alt="cinza" class="mat-elevation-z2">
+  <img src="assets/produto-cores/laranja.jpg" alt="laranja" class="mat-elevation-z2">
+  <img src="assets/produto-cores/preto.jpg" alt="preto" class="mat-elevation-z2">
+  <img src="assets/produto-cores/verde.jpg" alt="verde" class="mat-elevation-z2">
+  <img src="assets/produto-cores/vermelho.jpg" alt="vermelho" class="mat-elevation-z2">
 </div>
 
 
@@ -76,7 +76,7 @@
   <h1>VANTAGENS</h1>
   <div class="content-div-vantagem">
     <div class="content-left2">
-      <img src="assets/pneu-reciclavel.png" alt="pneu-reciclavel">
+      <img src="assets/pneu-reciclavel.png" alt="pneu-reciclavel" >
     </div>
   
     <div class="content-right2">
@@ -121,7 +121,7 @@
 
   <!--Imagens Carousel-->
   <div class="content-right">
-      <ngb-carousel *ngIf="images">
+      <ngb-carousel *ngIf="images" class="mat-elevation-z2">
         <ng-template ngbSlide>
           <div class="picsum-img-wrapper">
             <img src="assets/curiosidades1.jpg" alt="Random first slide">
@@ -165,7 +165,7 @@
 <div class="div-vantagem" style="background-color: #f0f0f0;">
   <div class="content-div-vantagem">
     <div class="content-left20">
-      <img src="assets/teste.PNG" alt="pneu-reciclavel">
+      <img src="assets/teste.PNG" alt="pneu-reciclavel" class="mat-elevation-z2">
     </div>
   
     <div class="content-right20">
@@ -197,7 +197,7 @@
 
 <div class="fluxograma">
   <h1>FLUXOGRAMA</h1>
-  <img src="assets/fluxograma.jpg" alt="organograma">
+  <img src="assets/fluxograma.jpg" alt="organograma" >
 </div>
 
 <div class="gestaoprod">
@@ -225,7 +225,7 @@
     </ul>
   </div>
   <div class="imagemprod">
-    <img src="assets/5s.jpg" alt="">
+    <img src="assets/5s.jpg" alt="" class="mat-elevation-z2">
   </div>
 </div>
 
@@ -234,8 +234,11 @@
 </div>
 
 <div class="instalacao">
+  <div class="conteudo-img-inst">
+    <img src="assets\ilovepdf_images-extracted\instalacao.jpg" alt="instalacao" class="mat-elevation-z2">
+  </div>
   <div class="conteudo-texto-inst">
-    <h1>INSTALAÇÃO DO PISO</h1>
+    <h1 class="titulos-div">INSTALAÇÃO DO PISO</h1>
     <p>
       Prévio a instalação, deixar as placas descansarem em pilhas 
       de cinco peças por três dias, para que voltem ao tamanho 
@@ -266,6 +269,7 @@
 
 <div class="limpeza">
   <div class="conteudo-texto-limpeza">
+    <h1 class="titulos-div">LIMPEZA, CUIDADOS E DURABILIDADE</h1>
     <p>
       Em geral, recomenda- se varrer diariamente.
     </p>
@@ -281,13 +285,20 @@
       e passar um pano úmido sobre a superfície.
     </p>
     <p>
-      Não utilizar produtos abrasivos como alvejantes, água 
-      sanitária, desinfetantes ou demais limpadores que 
-      podem agredir a aparência e durabilidade do produto.  
+      <span>
+        Não utilizar produtos abrasivos como alvejantes, água 
+        sanitária, desinfetantes ou demais limpadores que 
+        podem agredir a aparência e durabilidade do produto.  
+      </span> 
+        
     </p>
     <p>
       A vida útil são de 20 anos.
     </p>
+  </div>
+  <div class="conteudo-img-limpeza">
+    <img src="assets\ilovepdf_images-extracted\limpeza1.jpg" alt="instalacao" class="mat-elevation-z2">
+    <img src="assets\ilovepdf_images-extracted\limpeza2.jpg" alt="instalacao" class="mat-elevation-z2">
   </div>
 </div>
 

@@ -17,3 +17,72 @@
     font-weight: 400;
     font-size: 1rem;
 }
+
+.titulos-div {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: darkgreen;
+    margin-bottom: 5px;
+}
+
+.padrao {
+    padding: 20px 50px 20px 50px;
+}
+.padrao p{
+    font-size: 1rem;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sustentabilidade {
+    display: flex;
+}
+.conteudo-texto-sustentabilidade {
+    width: 80vw;
+}
+.conteudo-img-sustentabilidade {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.resposabilidade {
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+.conteudo-texto-respo {
+    width: 75vw;
+    padding-left: 15px;
+}
+
+.conteudo-img-respo {
+    width: 25vw;
+    text-align: center;
+}
+.conteudo-img-respo img{
+    height: 200px;
+    width: 100%;
+}
+
+.negociacao {
+    display: flex;
+}
+
+.conteudo-texto-negociacao {
+    width: 75vw;
+    font-size: 1rem;
+}
+
+.conteudo-img-negociacao {
+    width: 25vw;
+    text-align: center;
+}
+
+.conteudo-img-negociacao img{
+    height: 200px;
+    width: 100%;
+}

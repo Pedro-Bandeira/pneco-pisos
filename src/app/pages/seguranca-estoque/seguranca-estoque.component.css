@@ -17,3 +17,95 @@
     font-weight: 400;
     font-size: 1rem;
 }
+
+.titulos-div {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: darkgreen;
+    margin-bottom: 5px;
+}
+
+.padrao {
+    padding: 20px 50px 20px 50px;
+}
+.padrao p{
+    font-size: 1rem;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.seguranca {
+    display: flex;
+}
+
+.conteudo-img img {
+    height: 180px;
+    width: 230px;
+    border-radius: 10px;
+}
+.conteudo-img {
+    width: 20vw;
+}
+.conteudo-texto {
+    width: 60vw;
+    padding: 0px 5px 0px 5px;
+    font-size: 1rem;
+}
+
+
+.gestao-estoque {
+    display: flex;
+}
+
+.conteudo-texto-ge{
+    width: 70vw;
+    padding-right: 5px;
+}
+
+.conteudo-img-ge {
+    width: 30vw;
+}
+.conteudo-img-ge img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.conteudo-texto-arm {
+    width: 70vw;
+}
+
+.conteudo-img-arm {
+    display: flex;
+    width: 30vw;
+}
+.conteudo-img-arm img {
+    height: 100px;
+    width: 110px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.armazenagem {
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+.gestao-frotas {
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.conteudo-texto-gf {
+    width: 70vw;
+}
+
+.conteudo-img-gf {
+    width: 30vw;
+}
+
+.conteudo-img-gf img{
+    height: 190px;
+    width: 320px;
+    border-radius: 10px;
+}

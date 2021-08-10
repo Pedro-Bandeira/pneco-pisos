@@ -43,3 +43,36 @@
 .cliente-item {
     margin-left: 10%;
 }
+
+.canais-relac {
+    padding: 20px 50px 20px 50px;
+    display: flex;
+}
+
+.conteudo-texto-canais {
+    width: 70vw;
+}
+.conteudo-texto-canais p{
+    font-size: 1rem;
+    line-height: 15px;
+}
+.conteudo-texto-canais h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: darkgreen;
+}
+.conteudo-texto-canais span{
+    color: darkgreen;
+}
+
+.conteudo-img-canais {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-img-canais img{
+    height: 100px;
+}

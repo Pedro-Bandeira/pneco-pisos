@@ -55,6 +55,7 @@
 .content-right img{
     height: 240px;
     width: 440px;
+    border-radius: 10px;
 }
 
 
@@ -146,6 +147,10 @@
     margin-top: -2px;
 }
 
+mat-card {
+    border-radius: 10px;
+}
+
 mat-card-title {
     font-weight: 600;
 }
@@ -204,6 +209,7 @@ mat-card-title {
 .content-right-fab-regime img{
     height: 200px;
     width: 340px;
+    border-radius: 10px;
 }
 
 .div-vantagem {
