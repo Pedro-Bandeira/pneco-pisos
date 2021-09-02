@@ -6,6 +6,7 @@
     font-weight: bold; 
     display: flex; 
     align-items: center;
+    margin-right: 15px;
 }
 
 .logo:hover {
@@ -15,13 +16,14 @@
 }
 
 mat-toolbar {
-    background-color: #b3cccc;
+    background-color: #495916;
     display: flex;
     align-items: center;
     left: 0;
     right: 0;
     height: 9vh;
     margin-bottom: 1px;
+    color: #fff;
 }
 
 mat-toolbar span{

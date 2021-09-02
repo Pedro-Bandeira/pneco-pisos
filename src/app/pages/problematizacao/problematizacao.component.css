@@ -6,7 +6,8 @@
     justify-content: center;
     left: 0;
     right: 0;
-    background-color: #b3cccc;
+    background-color: #495916;
+    color: #fff;
     padding: 40px 0 35px 0;
 }
 .div-header h1 {
@@ -76,4 +77,27 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.conclusao {
+    background-color: #fff;
+    display: flex;
+    padding: 20px 50px 20px 50px;
+}
+
+.conteudo-texto-conclusao {
+    width: 70vw;
+    padding-right: 5px;
+}
+.conteudo-img-conclusao {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+}
+.conteudo-img-conclusao img{
+    height: 150px;
+    width: 260px;
+    border-radius: 5px;
 }
