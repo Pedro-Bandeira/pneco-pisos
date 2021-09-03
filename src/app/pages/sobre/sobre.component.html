@@ -23,7 +23,20 @@
   </div>
 
   <div class="content-right">
-    <img src="assets\ilovepdf_images-extracted\newlogo.jpg" alt="" class="mat-elevation-z2">
+    <div style="width: 440px;">
+      <ngb-carousel >
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="assets\ilovepdf_images-extracted\newlogo.jpg" alt="logo nova" class="mat-elevation-z2">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="assets\logo-bg.png" alt="" class="mat-elevation-z2">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
   </div>
 </div>
 
