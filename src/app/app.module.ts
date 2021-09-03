@@ -23,6 +23,7 @@ import { SustentabilidadeComponent } from './pages/sustentabilidade/sustentabili
 import { ClienteComponent } from './pages/cliente/cliente.component';
 import { ProblematizacaoComponent } from './pages/problematizacao/problematizacao.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { FooterComponent } from './components/footer/footer.component';
     MatMenuModule,
     MatIconModule,
     LayoutModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

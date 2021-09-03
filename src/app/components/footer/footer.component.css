@@ -18,12 +18,21 @@
 mat-toolbar {
     background-color: #495916;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
     left: 0;
     right: 0;
-    height: 9vh;
+    height: auto;
     margin-bottom: 1px;
     color: #fff;
+}
+
+.lineFooter {
+    display: flex;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 mat-toolbar span{
@@ -39,4 +48,50 @@ mat-toolbar span{
 
 mat-icon {
     margin: 0 5px 0 5px;
+}
+
+.contato {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.infos p{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.redes p{
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.redes p:hover{
+    opacity: 80%;
+}
+
+.infos {
+    width: 60vw;
+}
+
+.redes {
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.titulofooter {
+    color: #e5f0c2;
+}
+
+svg {
+    filter: invert(100%);	
+    size: 0.5rem;
+    margin-right: 10px;
 }
