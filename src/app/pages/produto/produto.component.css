@@ -280,7 +280,8 @@
     line-height: 20px;
 }
 .gestaoprod ul{
-    margin-left: -20px;
+    margin-left: 0px;
+    list-style-type: none;
 }
 
 .gestaoprod img{
@@ -331,4 +332,43 @@
 }
 .conteudo-img-inst {
     width: 25vw;
+}
+
+.balancprod {
+    background-color: #f0f0f0;
+    padding: 20px 50px 40px 50px;
+}
+
+.textobalanc {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textobalanc p {
+    line-height: 20px;
+}
+
+.textobalanc span {
+    color: darkgreen;
+    font-weight: 600;
+    font-weight: 1.1rem;
+}
+
+.textobalanc img {
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.textobalanc hr {
+    width: 100%;
+    color: #000;
+    opacity: 50%;
+}
+
+.textobalanc ul {
+    list-style-type: none;
 }
