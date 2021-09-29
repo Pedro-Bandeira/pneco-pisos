@@ -41,7 +41,7 @@
     right: 0;
 }
 .content-left p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 25px;
 }
 .content-left b{
@@ -77,7 +77,7 @@
 }
 
 .div-historia p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 25px;
     margin-top: -6px;
 }
@@ -96,7 +96,7 @@
 }
 
 .div-mvv p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 25px;
 }
 .div-mvv h1{
@@ -179,7 +179,7 @@ mat-card-title {
     right: 0;
 }
 .content-left-fab p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 25px;
 }
 .content-left-fab H1{
@@ -262,7 +262,7 @@ mat-card-title {
 }
 
 .content-right2 p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 25px;
 }
 .content-right2 span{
